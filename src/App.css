@@ -1,0 +1,78 @@
+/*
+ * Copyright (c) 2018 - 2018,  C19, all rights reserved.
+ *
+ * This software is licensed under under GPL-3.0-only or GPL-3.0-or-later, https://opensource.org/licenses/GPL-3.0
+ */
+
+.App {
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-app-logo {
+  display: inline-block;
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 150%;
+  height: 150%;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+.header-app-logo {
+  float: left;
+  margin:10px;
+  padding: 10px;
+  height: 48px;
+}
+
+.App-header {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px #8e8e8e solid;
+  background: #ffffff;
+  color: #111111;
+}
+
+.App-header h1{
+  float: left;
+  font-size: 2em;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.section-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#content{
+  flex: 1 0 auto;
+}
+
+footer{
+  background: #8e8e8e;
+  color: white;
+  flex-shrink: 0;
+  padding: 10px;
+
+}
+
+footer h1{
+  font-size: 1em;
+}
+
+.footer-app-logo{
+  height: 32px;
+}
+

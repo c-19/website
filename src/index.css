@@ -1,0 +1,25 @@
+/*
+ * Copyright (c) 2018 - 2018,  C19, all rights reserved.
+ *
+ * This software is licensed under under GPL-3.0-only or GPL-3.0-or-later, https://opensource.org/licenses/GPL-3.0
+ */
+
+html {
+    margin: 0;
+  height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
