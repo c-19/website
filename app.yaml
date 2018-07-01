@@ -2,6 +2,7 @@ env: flex
 runtime: nodejs
 handlers:
 - url: /.*
+  script: main.app
   secure: always
   http_headers:
     Strict-Transport-Security: 'max-age=63072000; includeSubDomains; preload'
